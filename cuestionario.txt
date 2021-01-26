@@ -18,4 +18,4 @@ Con cual comando podemos subir nuestros cambios a nuestro repositorio local?
 git push
 
 Cual es la recomendacion que se tiene que realizar cada vez que necesitamos subir nuestros cambios al repo remoto?
-perform a git pull to update the local repo
+perform a git pull before a push to update the local repo
