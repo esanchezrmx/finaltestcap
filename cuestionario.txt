@@ -1,13 +1,21 @@
 Cuales son las 3 fases del repositorio local git?
+R: Untracked, staged, commited
 
 Que diferencia existe entre un objecto tracked y un objeto untracked?
+tracked files are files that Git knows about. Untracked files are everything else — any files in your working directory that were not in your last snapshot and are not in your staging area. 
 
 Con cual subcomando del comando git podriamos renombrar un archivo o carpeta?
+R: git mv old_filename new_filename
 
 Cual es la sintaxis para genarar por medio de git un alias para una accion en especifico?
+git config --global alias.<aliasName> "<git command>"
+example: git config --add alias.st status
 
 Define con tus propias palabras en que consiste la fase llamada "staging area"?
+Staging area is files that are going to be a part of the next commit
 
 Con cual comando podemos subir nuestros cambios a nuestro repositorio local?
+git push
 
 Cual es la recomendacion que se tiene que realizar cada vez que necesitamos subir nuestros cambios al repo remoto?
+perform a git pull to update the local repo
